@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D4C0771BCF311B0053CD15 /* TSNAtomicBool.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D4C0761BCF311B0053CD15 /* TSNAtomicBool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D4C07E1BCF311B0053CD15 /* TSNAtomicBool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D4C0731BCF311B0053CD15 /* TSNAtomicBool.framework */; settings = {ASSET_TAGS = (); }; };
+		D3D4C0831BCF311B0053CD15 /* TSNAtomicBoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4C0821BCF311B0053CD15 /* TSNAtomicBoolTests.swift */; };
+		D3D4C0951BCF35AF0053CD15 /* TSNAtomicBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4C0941BCF35AF0053CD15 /* TSNAtomicBool.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3D4C07F1BCF311B0053CD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D4C06A1BCF311B0053CD15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D4C0721BCF311B0053CD15;
+			remoteInfo = TSNAtomicBool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3D4C0731BCF311B0053CD15 /* TSNAtomicBool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSNAtomicBool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D4C0761BCF311B0053CD15 /* TSNAtomicBool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSNAtomicBool.h; sourceTree = "<group>"; };
+		D3D4C0781BCF311B0053CD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D4C07D1BCF311B0053CD15 /* TSNAtomicBoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSNAtomicBoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D4C0821BCF311B0053CD15 /* TSNAtomicBoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSNAtomicBoolTests.swift; sourceTree = "<group>"; };
+		D3D4C0841BCF311B0053CD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D4C0941BCF35AF0053CD15 /* TSNAtomicBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TSNAtomicBool.swift; path = Source/TSNAtomicBool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D4C06F1BCF311B0053CD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4C07A1BCF311B0053CD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4C07E1BCF311B0053CD15 /* TSNAtomicBool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D4C0691BCF311B0053CD15 = {
+			isa = PBXGroup;
+			children = (
+				D3D4C0751BCF311B0053CD15 /* TSNAtomicBool */,
+				D3D4C0811BCF311B0053CD15 /* TSNAtomicBoolTests */,
+				D3D4C0741BCF311B0053CD15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D4C0741BCF311B0053CD15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4C0731BCF311B0053CD15 /* TSNAtomicBool.framework */,
+				D3D4C07D1BCF311B0053CD15 /* TSNAtomicBoolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D4C0751BCF311B0053CD15 /* TSNAtomicBool */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4C0931BCF359F0053CD15 /* Source */,
+				D3D4C0761BCF311B0053CD15 /* TSNAtomicBool.h */,
+				D3D4C0781BCF311B0053CD15 /* Info.plist */,
+			);
+			path = TSNAtomicBool;
+			sourceTree = "<group>";
+		};
+		D3D4C0811BCF311B0053CD15 /* TSNAtomicBoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4C0821BCF311B0053CD15 /* TSNAtomicBoolTests.swift */,
+				D3D4C0841BCF311B0053CD15 /* Info.plist */,
+			);
+			path = TSNAtomicBoolTests;
+			sourceTree = "<group>";
+		};
+		D3D4C0931BCF359F0053CD15 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4C0941BCF35AF0053CD15 /* TSNAtomicBool.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D3D4C0701BCF311B0053CD15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4C0771BCF311B0053CD15 /* TSNAtomicBool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D3D4C0721BCF311B0053CD15 /* TSNAtomicBool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4C0871BCF311B0053CD15 /* Build configuration list for PBXNativeTarget "TSNAtomicBool" */;
+			buildPhases = (
+				D3D4C06E1BCF311B0053CD15 /* Sources */,
+				D3D4C06F1BCF311B0053CD15 /* Frameworks */,
+				D3D4C0701BCF311B0053CD15 /* Headers */,
+				D3D4C0711BCF311B0053CD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSNAtomicBool;
+			productName = TSNAtomicBool;
+			productReference = D3D4C0731BCF311B0053CD15 /* TSNAtomicBool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3D4C07C1BCF311B0053CD15 /* TSNAtomicBoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4C08A1BCF311B0053CD15 /* Build configuration list for PBXNativeTarget "TSNAtomicBoolTests" */;
+			buildPhases = (
+				D3D4C0791BCF311B0053CD15 /* Sources */,
+				D3D4C07A1BCF311B0053CD15 /* Frameworks */,
+				D3D4C07B1BCF311B0053CD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D4C0801BCF311B0053CD15 /* PBXTargetDependency */,
+			);
+			name = TSNAtomicBoolTests;
+			productName = TSNAtomicBoolTests;
+			productReference = D3D4C07D1BCF311B0053CD15 /* TSNAtomicBoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D4C06A1BCF311B0053CD15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Softwarenerd;
+				TargetAttributes = {
+					D3D4C0721BCF311B0053CD15 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D3D4C07C1BCF311B0053CD15 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D3D4C06D1BCF311B0053CD15 /* Build configuration list for PBXProject "TSNAtomicBool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3D4C0691BCF311B0053CD15;
+			productRefGroup = D3D4C0741BCF311B0053CD15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D4C0721BCF311B0053CD15 /* TSNAtomicBool */,
+				D3D4C07C1BCF311B0053CD15 /* TSNAtomicBoolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D4C0711BCF311B0053CD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4C07B1BCF311B0053CD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D4C06E1BCF311B0053CD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4C0951BCF35AF0053CD15 /* TSNAtomicBool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4C0791BCF311B0053CD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4C0831BCF311B0053CD15 /* TSNAtomicBoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D4C0801BCF311B0053CD15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D4C0721BCF311B0053CD15 /* TSNAtomicBool */;
+			targetProxy = D3D4C07F1BCF311B0053CD15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3D4C0851BCF311B0053CD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3D4C0861BCF311B0053CD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3D4C0881BCF311B0053CD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = TSNAtomicBool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.TSNAtomicBool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3D4C0891BCF311B0053CD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = TSNAtomicBool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.TSNAtomicBool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D3D4C08B1BCF311B0053CD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TSNAtomicBoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.TSNAtomicBoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3D4C08C1BCF311B0053CD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TSNAtomicBoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.TSNAtomicBoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D4C06D1BCF311B0053CD15 /* Build configuration list for PBXProject "TSNAtomicBool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4C0851BCF311B0053CD15 /* Debug */,
+				D3D4C0861BCF311B0053CD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D4C0871BCF311B0053CD15 /* Build configuration list for PBXNativeTarget "TSNAtomicBool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4C0881BCF311B0053CD15 /* Debug */,
+				D3D4C0891BCF311B0053CD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3D4C08A1BCF311B0053CD15 /* Build configuration list for PBXNativeTarget "TSNAtomicBoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4C08B1BCF311B0053CD15 /* Debug */,
+				D3D4C08C1BCF311B0053CD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D4C06A1BCF311B0053CD15 /* Project object */;
+}
