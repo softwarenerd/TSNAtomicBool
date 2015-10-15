@@ -25,28 +25,28 @@ class TSNAtomicBoolTests: XCTestCase
     
     func test_Init()
     {
-        let atomicBool = TSNAtomicBool();
+        let atomicBool = TSNAtomicBool()
         XCTAssertFalse(atomicBool.boolValue)
         XCTAssertTrue(atomicBool.trySetTrue())
     }
     
     func test_InitToTrue()
     {
-        let atomicBool = TSNAtomicBool(true);
+        let atomicBool = TSNAtomicBool(true)
         XCTAssertTrue(atomicBool.boolValue)
         XCTAssertTrue(atomicBool.trySetFalse())
     }
     
     func test_InitToFalse()
     {
-        let atomicBool = TSNAtomicBool(false);
+        let atomicBool = TSNAtomicBool(false)
         XCTAssertFalse(atomicBool.boolValue)
         XCTAssertTrue(atomicBool.trySetTrue())
     }
 
     func test_trySetTrue()
     {
-        let atomicBool = TSNAtomicBool();
+        let atomicBool = TSNAtomicBool()
         XCTAssertTrue(atomicBool.trySetTrue())      // Should work.
         XCTAssertFalse(atomicBool.trySetTrue())     // Shouldn't work.
         XCTAssertTrue(atomicBool.boolValue)         // The boolValue should be true.
@@ -58,8 +58,8 @@ class TSNAtomicBoolTests: XCTestCase
 
     func test_trySetFalse()
     {
-        let atomicBool = TSNAtomicBool();
-        atomicBool.trySetTrue();
+        let atomicBool = TSNAtomicBool()
+        atomicBool.trySetTrue()
         XCTAssertTrue(atomicBool.trySetFalse())
         XCTAssertFalse(atomicBool.boolValue)
         XCTAssertTrue(atomicBool == false)          // == this way.
