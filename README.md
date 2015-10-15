@@ -1,0 +1,3 @@
+# TSNAtomicBool
+
+Atomic bool class.
